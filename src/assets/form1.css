@@ -1,0 +1,143 @@
+.formele {
+  padding: 30px;
+}
+
+.formcontainer {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formhead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.formimgbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.formbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.formbox h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.formbox label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+}
+
+.formbox input[type="text"],
+.formbox input[type="date"],
+.formbox input[type="number"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.formbox input[type="file"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+.formbox button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.formbox button:hover {
+  background-color: #3e8e41;
+}
+form {
+  padding: 50px;
+}
+input {
+  border-radius: 8px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid rgb(206, 196, 196);
+  height: 25px;
+  width: 100%;
+}
+#formsubmit {
+  margin-left: 0;
+}
+h1 {
+  text-align: center;
+}
+#District,
+#Taluka {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f2f2f2;
+  cursor: pointer;
+}
+
+#formsubmit {
+  background-color: rgb(173, 227, 243);
+  height: 50px;
+  width: 40%;
+  margin-left: 0;
+}
+
+input[type="radio" i] {
+  width: 15px;
+}
+.error-message {
+  color: red;
+  margin: 0;
+  padding: 0;
+}
